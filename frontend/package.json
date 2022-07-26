@@ -1,5 +1,5 @@
 {
-	"name": "frontend-cra",
+	"name": "fontend-video-chat",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
@@ -17,7 +17,7 @@
 	"scripts": {
 		"start": "BROWSER=none react-scripts start",
 		"prebuild": "react-scripts build",
-		"build": "rm -rf ../docs && mv build ../docs && echo letsjoin.ml >> ../docs/CNAME",
+		"build": "rm -rf ../docs && mv build ../docs && echo vimalpatra.github.io/video-chat-app/ >> ../docs/CNAME",
 		"postbuild": "git add -A; git commit -m 'BUILD DEPLOY!'; git push",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
